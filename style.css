@@ -6,7 +6,7 @@
 
 html, body{
     min-height: 100%;
-    background:#fff;
+    background: bisque;
     color: #000
 }
 
@@ -25,12 +25,15 @@ html, body{
 
 .header, .box1{
     background-color: #005F60;
-    color: bisque;
+}
+
+.header{
+    color: rgb(243, 161, 80);
 }
 
 a{
     text-decoration: none;
-    color:bisque;
+    color:rgb(243, 161, 80);
 }
 
 .box1{
@@ -39,6 +42,7 @@ a{
     align-items: center;
     gap:25px;
     padding:100px;
+    color: bisque;
    
 }
 .box1-left, .box1-right{
@@ -54,12 +58,76 @@ a{
 button{
     max-width: fit-content;
 }
+
 .box1-button{
     align-self:center;
     background-color: bisque;
-    border:3px solid #249ea0;
+    border:2px solid rgb(243, 161, 80);
     color:#005F60;
     font:bold;
     padding:5px;
-   border-radius: 2px;
+    border-radius: 4px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:45px;
+    padding:45px;
+    padding-bottom:90px;
+    background-color: bisque;
+    color:#005f60;
+}
+
+.box2-bottom{
+    display: flex;
+    gap:20px;
+}
+
+img{
+    border-style: solid;
+    border-width:3px;
+    border-color:#005f60;
+    
+}
+
+.box3{
+    display: flex;
+    background-color: #005f60;
+    color:rgb(243, 161, 80);
+    padding:150px 250px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.box4{
+    display: flex;
+    background-color: rgb(243, 161, 80);
+    justify-content: center;
+    margin: 12% 25%;
+    padding:5% 10%;
+    gap:70px;
+}
+
+.box4-right{
+    align-self: center;
+}
+.box4-left{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.contact-me{
+    padding:10% 35%;
+    border:2px solid #005f60;
+    border-radius: 7px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #005F60;
+    color: bisque;
+    padding:2% 5%;
 }
